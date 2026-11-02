@@ -1,8 +1,21 @@
 {
   "schema": 1,
-  "version": 2,
-  "updatedAt": "2026-10-31T06:21:11Z",
+  "version": 3,
+  "updatedAt": "2026-11-02T15:33:07Z",
   "entries": [
+    {
+      "id": "fb_cMsY04wjpFJcqPyC",
+      "content": "能否加入红烧土豆?",
+      "identity": {
+        "kind": "github",
+        "value": "nekobyran"
+      },
+      "status": "read",
+      "createdAt": "2026-11-02T15:32:34Z",
+      "readAt": "2026-11-02T15:33:02Z",
+      "doneAt": null,
+      "updatedAt": "2026-11-02T15:33:02Z"
+    },
     {
       "id": "fb_C0kb0qPfJxK1aUZ1",
       "content": "测试",
