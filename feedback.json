@@ -1,8 +1,21 @@
 {
   "schema": 1,
-  "version": 3,
-  "updatedAt": "2026-11-02T15:33:07Z",
+  "version": 4,
+  "updatedAt": "2026-11-09T16:36:44Z",
   "entries": [
+    {
+      "id": "fb_DmnWhM6GvX-p9Zt2",
+      "content": "新版本在搜索界面时容易闪退，即便我暂停了搜索，下拉，点击详情等操作容易出现闪退情况，我等了好久好不容易搜索出的结果，建议加个临时保存搜索结果的功能，不然每次搜索同一结果经常因为各种原因消失需要一遍又一遍的等待搜索。",
+      "identity": {
+        "kind": "device",
+        "value": "b21c0947-987f-498c-899a-dcab9d855b20"
+      },
+      "status": "read",
+      "createdAt": "2026-11-09T03:40:18Z",
+      "readAt": "2026-11-09T16:36:42Z",
+      "doneAt": null,
+      "updatedAt": "2026-11-09T16:36:42Z"
+    },
     {
       "id": "fb_cMsY04wjpFJcqPyC",
       "content": "能否加入红烧土豆?",
