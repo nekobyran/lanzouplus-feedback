@@ -1,8 +1,21 @@
 {
   "schema": 1,
-  "version": 5,
-  "updatedAt": "2026-11-12T14:56:48Z",
+  "version": 6,
+  "updatedAt": "2026-11-15T15:56:48Z",
   "entries": [
+    {
+      "id": "fb_197ZexohGSM2-Dle",
+      "content": "时间：2026-11-13 18:13:36\n线程：main\n版本：2.1.1 (2001001)\n\njava.util.concurrent.RejectedExecutionException: Task x.e2@98e2a62 rejected from java.util.concurrent.ThreadPoolExecutor@c3e17f3[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 5]\n\tat java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2086)\n\tat java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:848)\n\tat java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1394)\n\tat cc.nkbr.lanzouplus.MainActivity.F4(Unknown Source:1)\n\tat x.Ya.run(SourceFile:277)\n\tat android.os.Handler.handleCallback(Handler.java:938)\n\tat android.os.Handler.dispatchMessage(Handler.java:99)\n\tat android.os.Looper.loop(Looper.java:236)\n\tat android.app.ActivityThread.main(ActivityThread.java:8060)\n\tat java.lang.reflect.Method.invoke(Native Method)\n\tat com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:656)\n\tat com.android.internal.os.ZygoteInit.main(ZygoteInit.java:967)",
+      "identity": {
+        "kind": "device",
+        "value": "77990197-8be6-4090-8524-eda76ae50fc4"
+      },
+      "status": "read",
+      "createdAt": "2026-11-13T10:14:35Z",
+      "readAt": "2026-11-15T15:56:41Z",
+      "doneAt": null,
+      "updatedAt": "2026-11-15T15:56:41Z"
+    },
     {
       "id": "fb_DmnWhM6GvX-p9Zt2",
       "content": "新版本在搜索界面时容易闪退，即便我暂停了搜索，下拉，点击详情等操作容易出现闪退情况，我等了好久好不容易搜索出的结果，建议加个临时保存搜索结果的功能，不然每次搜索同一结果经常因为各种原因消失需要一遍又一遍的等待搜索。",
