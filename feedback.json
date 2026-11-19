@@ -1,8 +1,21 @@
 {
   "schema": 1,
-  "version": 6,
-  "updatedAt": "2026-11-15T15:56:48Z",
+  "version": 7,
+  "updatedAt": "2026-11-19T15:04:45Z",
   "entries": [
+    {
+      "id": "fb_H1A3--UCeoqZn27r",
+      "content": "时间：2026-11-15 23:28:44\n线程：main\n版本：2.1.1 (2001001)\n\njava.util.concurrent.RejectedExecutionException: Task x.e2@df8ef98 rejected from java.util.concurrent.ThreadPoolExecutor@38e83f1[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 3]\n\tat java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2072)\n\tat java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:834)\n\tat java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1364)\n\tat cc.nkbr.lanzouplus.MainActivity.F4(Unknown Source:1)\n\tat x.Ya.run(SourceFile:277)\n\tat android.os.Handler.handleCallback(Handler.java:942)\n\tat android.os.Handler.dispatchMessage(Handler.java:99)\n\tat android.os.Looper.loopOnce(Looper.java:223)\n\tat android.os.Looper.loop(Looper.java:324)\n\tat android.app.ActivityThread.main(ActivityThread.java:8614)\n\tat java.lang.reflect.Method.invoke(Native Method)\n\tat com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:582)\n\tat com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1061)",
+      "identity": {
+        "kind": "device",
+        "value": "b96846df-1235-444c-975b-2d62295115af"
+      },
+      "status": "read",
+      "createdAt": "2026-11-18T02:25:05Z",
+      "readAt": "2026-11-19T15:03:59Z",
+      "doneAt": null,
+      "updatedAt": "2026-11-19T15:03:59Z"
+    },
     {
       "id": "fb_197ZexohGSM2-Dle",
       "content": "时间：2026-11-13 18:13:36\n线程：main\n版本：2.1.1 (2001001)\n\njava.util.concurrent.RejectedExecutionException: Task x.e2@98e2a62 rejected from java.util.concurrent.ThreadPoolExecutor@c3e17f3[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 5]\n\tat java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2086)\n\tat java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:848)\n\tat java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1394)\n\tat cc.nkbr.lanzouplus.MainActivity.F4(Unknown Source:1)\n\tat x.Ya.run(SourceFile:277)\n\tat android.os.Handler.handleCallback(Handler.java:938)\n\tat android.os.Handler.dispatchMessage(Handler.java:99)\n\tat android.os.Looper.loop(Looper.java:236)\n\tat android.app.ActivityThread.main(ActivityThread.java:8060)\n\tat java.lang.reflect.Method.invoke(Native Method)\n\tat com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:656)\n\tat com.android.internal.os.ZygoteInit.main(ZygoteInit.java:967)",
