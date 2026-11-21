@@ -1,8 +1,23 @@
 {
   "schema": 1,
-  "version": 7,
-  "updatedAt": "2026-11-19T15:04:45Z",
+  "version": 8,
+  "updatedAt": "2026-11-21T11:48:27Z",
   "entries": [
+    {
+      "id": "fb_4wJb_1nq5Z7oUHL6",
+      "content": "时间：2026-11-21 17:26:25\n线程：main\n版本：2.1.5 (2001005)\n\njava.lang.NullPointerException: Attempt to invoke virtual method 'void android.view.ViewGroup.removeView(android.view.View)' on a null object reference\n\tat cc.nkbr.lanzouplus.MainActivity.b3(Unknown Source:420)\n\tat x.W0.run(SourceFile:127)\n\tat android.os.Handler.handleCallback(Handler.java:942)\n\tat android.os.Handler.dispatchMessage(Handler.java:99)\n\tat android.os.Looper.loopOnce(Looper.java:210)\n\tat android.os.Looper.loop(Looper.java:299)\n\tat android.app.ActivityThread.main(ActivityThread.java:8247)\n\tat java.lang.reflect.Method.invoke(Native Method)\n\tat com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:559)\n\tat com.android.internal.os.ZygoteInit.main(ZygoteInit.java:954)",
+      "identity": {
+        "kind": "device",
+        "value": "92352204-89f3-4f43-9662-c7518852b336"
+      },
+      "status": "read",
+      "createdAt": "2026-11-21T09:29:07Z",
+      "readAt": "2026-11-21T11:48:16Z",
+      "doneAt": null,
+      "updatedAt": "2026-11-21T11:48:21Z",
+      "reply": "已解决",
+      "repliedAt": "2026-11-21T11:48:21Z"
+    },
     {
       "id": "fb_H1A3--UCeoqZn27r",
       "content": "时间：2026-11-15 23:28:44\n线程：main\n版本：2.1.1 (2001001)\n\njava.util.concurrent.RejectedExecutionException: Task x.e2@df8ef98 rejected from java.util.concurrent.ThreadPoolExecutor@38e83f1[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 3]\n\tat java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2072)\n\tat java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:834)\n\tat java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1364)\n\tat cc.nkbr.lanzouplus.MainActivity.F4(Unknown Source:1)\n\tat x.Ya.run(SourceFile:277)\n\tat android.os.Handler.handleCallback(Handler.java:942)\n\tat android.os.Handler.dispatchMessage(Handler.java:99)\n\tat android.os.Looper.loopOnce(Looper.java:223)\n\tat android.os.Looper.loop(Looper.java:324)\n\tat android.app.ActivityThread.main(ActivityThread.java:8614)\n\tat java.lang.reflect.Method.invoke(Native Method)\n\tat com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:582)\n\tat com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1061)",
