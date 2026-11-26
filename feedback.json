@@ -1,8 +1,34 @@
 {
   "schema": 1,
-  "version": 8,
-  "updatedAt": "2026-11-21T11:48:27Z",
+  "version": 9,
+  "updatedAt": "2026-11-26T14:40:31Z",
   "entries": [
+    {
+      "id": "fb_hJTUEnCrDOEbIR4p",
+      "content": "软件库输入密码kdml，在浏览器里可以进入，在软件里会显示密码错误",
+      "identity": {
+        "kind": "device",
+        "value": "60f2e8b0-cc55-4058-9f7a-39eea59f5d9d"
+      },
+      "status": "read",
+      "createdAt": "2026-11-25T16:10:45Z",
+      "readAt": "2026-11-26T14:40:27Z",
+      "doneAt": null,
+      "updatedAt": "2026-11-26T14:40:27Z"
+    },
+    {
+      "id": "fb_hQSWE53HqjDZMzfT",
+      "content": "时间：2026-11-21 21:41:45\n线程：main\n版本：2.1.6alpha (2001006)\n\njava.lang.NullPointerException: Attempt to invoke virtual method 'void android.view.View.setVisibility(int)' on a null object reference\n\tat x.Xb.run(SourceFile:119)\n\tat android.app.Activity.runOnUiThread(Activity.java:8340)\n\tat cc.nkbr.lanzouplus.MainActivity.l3(Unknown Source:1)\n\tat cc.nkbr.lanzouplus.MainActivity.H3(Unknown Source:116)\n\tat x.Rc.run(SourceFile:25)\n\tat android.os.Handler.handleCallback(Handler.java:1014)\n\tat android.os.Handler.dispatchMessage(Handler.java:102)\n\tat android.os.Looper.loopOnce(Looper.java:250)\n\tat android.os.Looper.loop(Looper.java:340)\n\tat android.app.ActivityThread.main(ActivityThread.java:9903)\n\tat java.lang.reflect.Method.invoke(Native Method)\n\tat com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:625)\n\tat com.android.internal.os.ZygoteInit.main(ZygoteInit.java:957)",
+      "identity": {
+        "kind": "device",
+        "value": "251c3de8-1b23-464d-931a-dcee1d3f4705"
+      },
+      "status": "new",
+      "createdAt": "2026-11-21T13:42:24Z",
+      "readAt": null,
+      "doneAt": null,
+      "updatedAt": "2026-11-21T13:42:24Z"
+    },
     {
       "id": "fb_4wJb_1nq5Z7oUHL6",
       "content": "时间：2026-11-21 17:26:25\n线程：main\n版本：2.1.5 (2001005)\n\njava.lang.NullPointerException: Attempt to invoke virtual method 'void android.view.ViewGroup.removeView(android.view.View)' on a null object reference\n\tat cc.nkbr.lanzouplus.MainActivity.b3(Unknown Source:420)\n\tat x.W0.run(SourceFile:127)\n\tat android.os.Handler.handleCallback(Handler.java:942)\n\tat android.os.Handler.dispatchMessage(Handler.java:99)\n\tat android.os.Looper.loopOnce(Looper.java:210)\n\tat android.os.Looper.loop(Looper.java:299)\n\tat android.app.ActivityThread.main(ActivityThread.java:8247)\n\tat java.lang.reflect.Method.invoke(Native Method)\n\tat com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:559)\n\tat com.android.internal.os.ZygoteInit.main(ZygoteInit.java:954)",
